@@ -29,6 +29,10 @@ fun MainViewBoarding ( navController: NavController, store: StoreBoarding ) {
     )
 
     items.add (
+        PageData ( R.raw.page4, "Página extra", "Esta es una página adicional del Boarding" )
+    )
+
+    items.add (
         PageData ( R.raw.page3, "Fin de Boarding", "Esta es la página final del Boarding y ya debe aparecer el botón" )
     )
 
